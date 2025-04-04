@@ -1,0 +1,109 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+
+p{
+	color: #555555;
+}
+	
+.feature {
+	background: black linear-gradient(to bottom, black, black);
+	color: black;
+	}
+.col-lg-12 {
+	color: #555555;
+}
+
+#feature-carousel {
+	min-height: 400px;
+	}
+
+#feature-carousel img {
+	margin: 0 auto;
+	}
+		
+.article-intro {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    background-color: lightblue;
+    color: #555555;
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #F6F6F6;
+	padding: 30px 0;
+}
+
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print {
+	text-align: center;
+	}
+
+
+
+
+
+
+
+.projectcontainer {
+    position: relative;
+    width: 100%;
+	color: #555555;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.projectcontainer:hover .image {
+  opacity: 0.2;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.projectcontainer:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 5px;
+}
+
+.text-title {
+  color: black;
+  font-weight: bold;
+  font-size: 21px;
+  padding: 2px 1px;
+}
