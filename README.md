@@ -1,1 +1,1 @@
-# nimesha82.github.io/nimesha/
+# nimesha82.github.io/mim/
